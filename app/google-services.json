@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "266763250795",
+    "project_id": "master-zhou",
+    "storage_bucket": "master-zhou.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266763250795:android:a8c4504660910513f1d52e",
+        "android_client_info": {
+          "package_name": "com.ymmbj.mz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266763250795-ahu0sphorc497ob57jeq8imp8h7vs36k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ymmbj.mz",
+            "certificate_hash": "659ddd6a571a0c6ee7f1722d57689fc7b724c95d"
+          }
+        },
+        {
+          "client_id": "266763250795-el3bue2od9mrg4anij1sd0soe5bk5l8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv7X7XtsDcoi_fbaetBCMcA2KpFdEQERM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266763250795-el3bue2od9mrg4anij1sd0soe5bk5l8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

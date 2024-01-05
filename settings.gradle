@@ -1,0 +1,34 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://jitpack.io"
+        }
+        maven {
+            url "https://maven.aliyun.com/repository/central"
+        }
+        maven {
+            url "https://maven.aliyun.com/repository/public"
+        }
+        maven {
+            allowInsecureProtocol(true)
+            url "http://lib.yummbj.com:8081/nexus/content/repositories/releases"
+            credentials{
+                it.password('b813b813')
+                it.username('libuser')
+            }
+        }
+    }
+}
+
+rootProject.name = "MasterZhouOverseas"
+include ':app'

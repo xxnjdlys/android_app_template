@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_puzzle"
+            android:icon="@mipmap/ic_tab_puzzle_n"
+            android:title="@string/menu_puzzle" />
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@mipmap/ic_tab_store_n"
+            app:showAsAction="always"
+            android:title="@string/menu_store" />
+        <item
+            android:id="@+id/nav_center"
+            android:title=""
+            tools:title="@string/menu_center"
+            tools:icon="@mipmap/ic_tab_wish_n" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/ic_tab_wish_n"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_rank"
+            android:icon="@mipmap/ic_tab_rank_n"
+            android:title="@string/menu_rank" />
+    </group>
+</menu>
